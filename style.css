@@ -13,8 +13,8 @@ body{
 display: flex;
 justify-content: space-between;
 margin: 10p;
-padding: 10px;
-align-items: center;
+padding: 10px 200px;
+
 
 }
 .logo{
@@ -42,8 +42,8 @@ a, a:visited{
     background-color: #1f2937;
     flex-direction: row;
     align-items: center;
-    padding: 50px;
-    justify-content: space-evenly;
+    padding: 50px 200px;
+    justify-content: space-between;
 }
 
 .titlemain{
@@ -51,7 +51,7 @@ a, a:visited{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    gap: 30px;
+    gap: 25px;
 }
 
 .titleimage{
@@ -74,14 +74,25 @@ a, a:visited{
 }
 
 .button{
-    padding: 5px;
-    width: 100px;
-    height: 30px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
     display: flex;
     flex: 0 0 auto;
     justify-content: center;
     align-content: center;
+    font-size: large;
+    border-radius: 4px;
+   
 } 
+
+.one{
+    border:none;
+
+}
+
 
 .main{
     width: 500px;
@@ -106,16 +117,14 @@ a, a:visited{
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items:center;
-    }
-
-.i1, .i2 {
- 
+    gap: 80px;
 }
 
 .square {
     width: 250px;
     height: 250px;
+    border-radius: 20px;
+    border: 4px solid #3882f6;
 }
 
 .text2{
@@ -128,8 +137,6 @@ a, a:visited{
     margin: 100px 0px 100px 0px;
     display: flex;
     height: 100px;
-    justify-content: space-between;
-    align-items: center;
     background-color:#e5e7eb;
     padding:200px;
     color: #1f2937;
@@ -142,5 +149,47 @@ a, a:visited{
 }
 .catter{
     font-size: 19px;
+    text-align: end;
 }
 
+/* quote end sign up start */
+
+.sign-up{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display:flex ;
+    height: 100px;
+    align-items: center;
+    gap: 50px;
+    margin: 200px;
+    padding: 30px 100px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.lefttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.text3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.two {
+    border: 2px solid #e5e7eb;
+}
+
+/*sign up end footer start*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding:30px;
+    color: #e5e7eb;
+    
+}
